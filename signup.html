@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign up to {this}</title>
+        <link rel="stylesheet" type="text/css" href="signup.css" />
+        <script type="text/javascript" src="signup.js"></script>
+    </head>
+    <body background="image/image.jpg">
+        
+        <form action=#signup.html onsubmit="return validate()">
+        <div class="signup">
+        <img src="image/login.jpg" class="logo">
+            <h1>Sign up here</h1>
+        
+      	Name<br>
+      	<input type="text" name="name" ><br>
+        Email<br>
+	   <input type="text" name="email" ><br>
+        Phone Number (xxx-xxx-xxxx ,xxx.xxx.xxx, xxx xxx xxx)<br>
+      	<input type="text" name="phone" pattern="^\d{3}-\d{3}-\d{4}$" ><br>
+        Create a password<br>
+       <input type="password" name="password" d><br>
+       <div id="strength"style="width: 230px;" min="0" max="100"  ></div>
+        Retype password<br>
+	   <input type="password" name="retype_password" ><br>
+        
+        <label>
+          <input type="checkbox" name="terms">By signing up to {this} you agree to your
+           <a href="#service">Terms of Service</a> and <a href="#policy">Privacy Policy</a>
+        </label>
+          
+      	<div class="button">
+          <input type="submit" class="button" value="Set Up Account">
+        </div>
+        
+	</form>
+</body>
+</html>

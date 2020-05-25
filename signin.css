@@ -1,0 +1,86 @@
+body{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-family: serif;
+}
+.login{
+    width: 320px;
+    height: 420px;
+    background: rgba(0,0,0,0.5);
+    color:#fff;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left:calc(50% -50px);
+}
+h1{
+    margin:0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: cornsilk;
+}
+.login p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: cornsilk;
+}
+.login input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login input[type="text"], input[type="password"]
+{
+border:none;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline:none;
+height: 40px;
+color: #fff;
+font-size: 16px;
+}
+.signup input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background:white;
+    color:black;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.signup input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: cornflowerblue;
+    color: black;
+}
+.signup a{
+    text-decoration: none;
+    font-size: 14px;
+    color:#fff;
+    border: 1px solid white;
+  font-size:x-large;
+  margin-left: 100px;
+}
+.signup a:hover
+{
+    background: cornflowerblue;
+}
+.login a{
+
+    color: cornsilk;
+
+}

@@ -1,0 +1,86 @@
+
+body {
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-family: serif;  }
+  
+    .signup{
+        width: 320px;
+        height: 750px;
+        background: rgba(0,0,0,0.5);
+        color:#fff;
+        top:50%;
+        left:50%;
+        position:absolute;
+        transform:translate(-50%,-50%);
+        box-sizing: border-box;
+        padding: 70px 30px;
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: absolute;
+        top: 45px;
+        left:calc(50% -50px);
+    }
+    h1{
+        margin:0;
+        padding: 0 0 20px;
+        text-align: center;
+        font-size: 22px;
+        color: cornsilk;
+    }
+    .signup input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .signup input[type="text"], input[type="password"]
+{
+border:none;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline:none;
+height: 40px;
+color: #fff;
+font-size: 16px;
+cursor:pointer;
+}
+.signup input[type="email"], input[type="password"]
+{
+border:none;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline:none;
+height: 40px;
+color: #fff;
+font-size: 16px;
+cursor:pointer;
+}
+.signup input[type="tel"], input[type="password"]
+{
+border:none;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline:none;
+height: 40px;
+color: #fff;
+font-size: 16px;
+cursor:pointer;
+}
+
+.signbtn input[type="submit"]:hover
+{
+    cursor: pointer;
+    color: rgb(160, 100, 32);
+}
+  
+  form { 
+      width: 500px; 
+      margin: auto;
+      padding: 5px; 
+      border: solid black 1px;	
+      border-radius: 5px;  
+      box-shadow: 5px 5px 2px #888;
+  }
